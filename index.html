@@ -1,0 +1,35 @@
+
+<ul> 
+   <li>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<h1>Dashboard Admin Courses:</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<p>
+   <label id="fahrLabel" for="fahr">Course ID:</label>
+   <input type="url" id="fahr">
+  <!-- <input type="text" id="fahr">-->  
+   
+
+
+   <input type="button" value="Search" id="convertBtn">
+</p>
+<script>
+let $cels = $("#cels");
+let $fahr = $("#fahr");
+
+$("#convertBtn").click(function() {                                
+   if ($cels.val()=="admin"){
+        window.open("https://www.google.com",'_blank');
+  
+   } 
+   else if ($cels.val()=="student"){
+        window.open("https://www.google.com",'_blank');
+   }
+    else if ($.isNumeric($fahr.val())) {
+        window.open("https://www.google.com",'_blank');
+   }
+});
+</script>
+</li>
+</ul>
